@@ -3,9 +3,12 @@
 
 int main(){
     int n = 0;
-    std::cin >> n;
-    std::vector<int> a(n);
-    for (int i = 0; i < n; ++i){
-        std::cin >> a[i];
+    for (int i = 0; i < 31; ++i){
+        std::cin >> n;
+        std::cout << n << " " << i;
+    }
+    for (int i = 0; i < 31; ++i){
+        std::cin >> n;
+        std::cout << n << " " << i;
     }
 }
